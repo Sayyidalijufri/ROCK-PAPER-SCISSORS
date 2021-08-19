@@ -1,33 +1,26 @@
-*{
-  margin:0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background-color: #CCC;
 }
 
-body{
-  background: #ccc;
-}
-
-.selections{
+.selections {
   display: flex;
   justify-content: center;
 }
 
-.selection{
+.selection {
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
   font-size: 2rem;
-  transition: all 100ms;
+  transition: 100ms;
 }
 
-.selection:hover{
+.selection:hover {
   transform: scale(1.2);
 }
 
-
-.result{
+.results {
   margin-top: 1rem;
   display: grid;
   justify-content: center;
@@ -36,19 +29,17 @@ body{
   align-items: center;
 }
 
-.result-score{
-  margin-left:.1rem;
+.result-score {
+  margin-left: .1rem;
   font-size: .5rem;
-  color: #333; 
+  color: #333;
 }
 
-
-.result-selection{
+.result-selection {
   opacity: .5;
 }
 
-.result-selection.winner{
+.result-selection.winner {
   opacity: 1;
   font-size: 1.5rem;
-  
 }
