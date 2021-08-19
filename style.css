@@ -19,4 +19,11 @@ body{
   outline: none;
   cursor: pointer;
   font-size: 2rem;
+  transition: all 100ms;
 }
+
+.selection:hover{
+  transform: scale(1.2);
+}
+
+
