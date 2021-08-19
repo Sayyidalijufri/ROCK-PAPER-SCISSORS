@@ -5,5 +5,18 @@
 }
 
 body{
-  background: #eee;
+  background: #ccc;
+}
+
+.selections{
+  display: flex;
+  justify-content: center;
+}
+
+.selection{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
 }
